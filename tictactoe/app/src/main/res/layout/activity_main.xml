@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:id="@+id/tbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/BtnOne"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/BtnTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/BtnThree"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/BtnFour"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/BtnFive"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/BtnSix"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/BtnSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/BtnEight"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/BtnNine"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_ttt_height"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:onClick="onClick"
+                android:background="@color/white" />
+
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/BtnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_below="@id/tbl1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        />
+
+
+</RelativeLayout>
